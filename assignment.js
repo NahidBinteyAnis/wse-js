@@ -140,15 +140,18 @@ evenOdd('Hello')
 
 2. What is JavaScript, and what is its primary purpose in web development?
 
-JavaScript is a scripting language for creating dynamic web page content. It creates elements for improving site visitors’ interaction with web pages, such as dropdown menus, animated graphics, and dynamic background colors.
+JavaScript is a scripting language for creating dynamic web page content. 
+It creates elements for improving site visitors’ interaction with web pages, such as dropdown menus, animated graphics, and dynamic background colors.
 
 
 
 3. Explain the difference between var, let, and const when declaring variables in JavaScript.
 
-var: The var keyword declares a function-scoped or global variable, optionally initializing it to a value.Function-scoped means that the variable is only available within the function it was declared in. Global variables are available throughout your entire code.
+var: The var keyword declares a function-scoped or global variable, optionally initializing it to a value.
+Function-scoped means that the variable is only available within the function it was declared in. Global variables are available throughout your entire code.
 
-const: The const keyword declares a block-scoped, immutable constant variable, i.e. a variable that can’t be reassigned.Constants are also called “immutable variables”, but that’s a bit of a misnomer since they are actually variables – just ones that can’t be reassigned.
+const: The const keyword declares a block-scoped, immutable constant variable, i.e. a variable that can’t be reassigned.
+Constants are also called “immutable variables”, but that’s a bit of a misnomer since they are actually variables – just ones that can’t be reassigned.
 
 let: The let keyword declares a block-scoped local variable, optionally initializing it to a value.
 Block-scoped means that the variable is only available within the block it was declared in, which is usually denoted by curly braces {}.
@@ -156,7 +159,9 @@ Block-scoped means that the variable is only available within the block it was d
 
 4. Explain the concept of "scope" in JavaScript and the difference between global and local scope.
 
-Global scope — Global scope contains all of the things defined outside of all code blocks. A code block simply consists of grouped statements inside curly braces ({ }). if statement, loops, function are examples of structure that create a code block. A global variable has global scope. A global variable is accessible from anywhere in the code.
+Global scope — Global scope contains all of the things defined outside of all code blocks. 
+A code block simply consists of grouped statements inside curly braces ({ }). if statement, loops, function are examples of structure that create a code block. 
+A global variable has global scope. A global variable is accessible from anywhere in the code.
 
 Local Scope — Local scope contains things defined inside code blocks. A local variable has local scope. A local variable is only accessible where it’s declared.
 
